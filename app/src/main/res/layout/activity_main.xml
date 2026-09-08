@@ -15,12 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:src="@drawable/zad1"
-            android:layout_width="350dp"
-            android:layout_height="400dp"
-            android:layout_gravity="center"
-            android:id="@+id/obrazek"/>
+
 
         <TextView
             android:text="Które to schronisko?"
