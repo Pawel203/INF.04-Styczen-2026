@@ -15,7 +15,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
+        <ImageView
+            android:id="@+id/obrazek"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerInside"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="45dp"
+            android:src="@drawable/zad1" />
 
         <TextView
             android:text="Które to schronisko?"
@@ -26,6 +35,7 @@
             android:layout_gravity="center"
             android:id="@+id/pytanie"/>
         <RadioGroup
+            android:id="@+id/odpowiedz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
